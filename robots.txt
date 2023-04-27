@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://jacobpfau.com/al-folio/sitemap.xml
+Sitemap: https://jacobpfau.com/sitemap.xml
