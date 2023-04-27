@@ -22,4 +22,4 @@ PhD student at the NYU Alignment Research Group. Current research projects inclu
 - studying scaling properties of LM performance as a function of empty space in prompts
 - formalizing limitations of RL fine-tuning of LMs
 
-I like to post about research on [Twitter](https://twitter.com/jacob_pfau) and [Lesswrong](https://www.lesswrong.com/users/jacob-pfau).
+I like to post about research on [Twitter](https://twitter.com/jacob_pfau) and [Lesswrong](https://www.lesswrong.com/users/jacob-pfau). I also like to create prediction markets e.g. ["Will an AI produce encyclopedia-worthy philosophy by 2026"](https://manifold.markets/JacobPfau/will-an-ai-produce-encyclopediawort?r=SmFjb2JQZmF1) on Manifold, and ["Will transformer derived architectures accelerate progress in deep learning?"](https://www.metaculus.com/questions/5173/transformers-effect-on-ai-research/) on Metaculus.
