@@ -17,4 +17,4 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-PhD student at the NYU Alignment Research Group. 
+PhD student at the NYU Alignment Research Group. Page currently under construction as of April 2023.
