@@ -170,10 +170,10 @@ collections:
     defaults:
       layout: post
     output: false
-    permalink: /news/:path/
+    permalink: # /news/:path/
   projects:
     output: false
-    permalink: /projects/:path/
+    permalink: # /projects/:path/
 
 news:
   enabled: false
