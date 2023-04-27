@@ -17,7 +17,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-PhD student at the NYU Alignment Research Group. Current research projects include: 
+PhD student at the NYU [Alignment Research Group](https://wp.nyu.edu/arg/). Current research projects include: 
 - applying causal behavioral analysis to problems of introspective truthfulness in LMs
 - studying scaling properties of LM performance as a function of empty space in prompts
 - formalizing limitations of RL fine-tuning of LMs
