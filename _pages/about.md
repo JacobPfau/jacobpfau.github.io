@@ -18,8 +18,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 PhD student at the NYU [Alignment Research Group](https://wp.nyu.edu/arg/). Current research projects include: 
-- applying causal behavioral analysis to problems of introspective truthfulness in LMs
-- studying scaling properties of LM performance as a function of empty space in prompts
-- formalizing limitations of RL fine-tuning of LMs
+- studying scaling properties of LM performance as a function of filler (i.e. repeated) tokens in prompts
+- latent adversarial training for improving safety of LMs
 
 I like to post about research on [Twitter](https://twitter.com/jacob_pfau) and [Lesswrong](https://www.lesswrong.com/users/jacob-pfau). I also like to create prediction markets e.g. ["Will an AI produce encyclopedia-worthy philosophy by 2026"](https://manifold.markets/JacobPfau/will-an-ai-produce-encyclopediawort?r=SmFjb2JQZmF1) on Manifold, and ["Will transformer derived architectures accelerate progress in deep learning?"](https://www.metaculus.com/questions/5173/transformers-effect-on-ai-research/) on Metaculus.
