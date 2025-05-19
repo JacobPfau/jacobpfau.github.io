@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our safety case sketch for debate is up on [arxiv](https://arxiv.org/abs/2505.03989). We work through the details determining what we need to assume about deployment context, training data, training dynamics, and the objective itself.
+Our safety case sketch for debate is up on [arxiv](https://arxiv.org/abs/2505.03989). Looks at the details of a hypothetical deployment context for an AGI and works through the details on what we'd need to know about the training data, dynamics, and objective to build a safety case.
