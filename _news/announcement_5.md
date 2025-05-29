@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-[Unexploitable search](https://www.lesswrong.com/posts/CuneN5HmLnztsLRzD/unexploitable-search-blocking-malicious-use-of-free-1) posted to Lesswrong. "If your reward function (e.g. honesty) is compatible with many possible solutions then you also need to avoid having free parameters exploited over time. We call this the exploitable search problem. We propose a zero-sum game where, at equilibrium, free parameters are not exploited"
+Posted [Unexploitable search: blocking malicious use of free parameters](https://www.lesswrong.com/posts/CuneN5HmLnztsLRzD/unexploitable-search-blocking-malicious-use-of-free-1) to Lesswrong.
