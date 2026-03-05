@@ -1,0 +1,173 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{bold-extra}
+
+% Remove page numbers
+\pagestyle{empty}
+
+% Section formatting - using uppercase instead of smallcaps
+\titleformat{\section}{\large\bfseries}{}{0em}{\MakeUppercase}[\titlerule]
+\titlespacing{\section}{0pt}{10pt}{6pt}
+
+% Reduce space between items
+\setlist{noitemsep, topsep=0pt}
+\setlength{\parindent}{0pt}
+
+% Custom command for reducing vertical space
+\newcommand{\reducespace}{\vspace{-3pt}}
+
+\begin{document}
+
+% Header
+\begin{center}
+    {\LARGE\textbf{JACOB PFAU}}\\[4pt]
+    UK AISI Alignment Research Lead $\cdot$
+    \href{mailto:jacob.pfau@gmail.com}{jacob.pfau@gmail.com} 
+    
+\end{center}
+\vspace{-10pt}
+
+\section{Education}
+
+\textbf{New York University, He and Bowman Labs} \hfill Fall 2022 - Present\\
+PhD Student, Center for Data Science
+\vspace{4pt}
+
+\textbf{University of Edinburgh} \hfill Sept. 2021 - Aug. 2022\\
+MSc Mind, Language and Embodied Cognition (Philosophy Department). First class honors.
+\vspace{4pt}
+
+\textbf{Ecole Polytechnique (Université Paris-Saclay), Paris} \hfill Sept. 2018 - Aug. 2019\\
+M1, Masters Computer Science, Data Science track. 
+\vspace{4pt}
+
+\textbf{Amherst College} \hfill Sept. 2013 - May 2017\\
+BA Mathematics \& 5 College Logic Certificate. ETH Zurich Visiting student. 
+
+\section{Employment}
+
+\textbf{UK AI Security Institute, Alignment Team}\\
+\textit{Research Lead} \hfill 2026--Present\\
+Co-lead team of 16 developing AGI-ready alignment methods: setting research vision, steering academic and industry lab collaborations, and collaborating hands-on across team projects spanning scalable oversight, automated alignment, personas, and learning theory.
+\vspace{2pt}
+
+\textit{Research Scientist} (founding member) \hfill 2025--2026\\
+Helped establish and grow alignment team from 3 to 16 staff. Co-led \href{https://alignmentproject.aisi.gov.uk/}{grantmaking} round engaging Nobel laureates and Turing Award winners to develop new alignment research agendas; co-organized alignment conference with similar goals. Research focused on scalable oversight: published debate safety case; ongoing work on adversarial RL methods and conceptual alignment work.
+\vspace{4pt}
+
+\textbf{MATS}, \textit{Mentor} \hfill Jan. 2026 - Present\\
+Mentoring two researchers on empirical study of debate as a scalable oversight method, using RL to train LLMs to debate.
+\vspace{4pt}
+
+\textbf{LASR: London AI Safety Research Labs}, \textit{Mentor} \hfill July 2025 - Jan. 2026\\
+Mentored team of four researchers working on empirically studying the \href{https://www.alignmentforum.org/posts/CuneN5HmLnztsLRzD/unexploitable-search-blocking-malicious-use-of-free-1}{unexploitable search} problem for language models. This involves (1) constructing model organisms: misaligned LMs with hidden objectives (2) iterating on methods for training away such hidden objectives.
+\vspace{4pt}
+
+
+\textbf{Anthropic}, \textit{Contractor} \hfill Dec. 2023 - May 2024\\
+Collaboration commissioned by Anthropic to assess the implications of theories of welfare and consciousness on LLMs; coauthored `Taking AI Welfare Seriously'.
+\vspace{4pt}
+
+\textbf{AI Safety Camp}, \textit{Mentor} \hfill Mar. 2023 - July 2023\\
+Mentored four researchers on project developing a benchmark for evaluating LM self-consistency.
+\vspace{4pt}
+
+\textbf{University of California, San Francisco. Keiser Lab}, \textit{Bold and Basic Fellow} \hfill Mar. 2019 - Aug. 2020\\
+Developed interpretability methods and benchmarking datasets for clinical imaging. 
+
+\section{Publications}
+
+\textbf{An Alignment Safety Case Sketch Based on Debate.}
+\href{https://doi.org/10.48550/arXiv.2505.03989}{arXiv},\\
+Buhl M\, D, Pfau J, Hilton B, Irving G. \textit{arXiv Preprint} (2025)
+\vspace{3pt}
+
+\textbf{When Benchmarks Talk: Re-Evaluating Code LLMs with Interactive Feedback.}
+\href{https://doi.org/10.18653/v1/2025.findings-acl.1267}{DOI},\\
+Pan J, Shar R, Pfau J, Talwalkar A, He H, Chen V. \textit{Findings of the Association for Computational Linguistics: ACL} (2025)
+\vspace{3pt}
+
+\textbf{Let's\,Think Dot by Dot: Hidden Computation in Transformer Language Models.}
+\href{https://doi.org/10.48550/arXiv.2404.15758}{arXiv},\\
+Pfau J, Merrill W, Bowman S. \textit{COLM} (2024)
+\vspace{3pt}
+
+\textbf{Taking AI Welfare Seriously.}
+\href{https://doi.org/10.48550/arXiv.2411.00986}{arXiv},\\
+Long R, Sebo J, Butlin P, Finlinson K, Fish K, Harding J, Pfau J, Sims T, Birch J, Chalmers D \textit{arXiv Preprint} (2024)
+\vspace{3pt}
+
+\textbf{Steering Without Side Effects: Improving Post-Deployment Control of Language Models.}
+\href{https://doi.org/10.48550/arXiv.2406.15518}{arXiv},\\
+Stickland A C, Lyzhov A, Pfau J, Mahdi S, Bowman S R \textit{arXiv Preprint} (2024)
+\vspace{3pt}
+
+
+\textbf{Eliciting Language Model Behaviors using Reverse Language Models.}
+\href{https://openreview.net/pdf?id=m6xyTie61H}{OpenReview},\\
+Pfau J, Infanger A, Sheshadri A, Panda A, Huebner C, Michael J. \textit{Socially\, Responsible Language Modelling Research (SoLaR) Workshop at NeurIPS} (2023)
+\vspace{3pt}
+
+\textbf{Open Problems and Fundamental Limitations of Reinforcement Learning from Human Feedback.}
+\href{https://doi.org/10.48550/arXiv.2307.15217}{arXiv},\\
+Casper S, \dots{} Pfau J, et al. \textit{Transactions on Machine Learning Research (TMLR)} (2023)
+\vspace{3pt}
+
+\textbf{Self-Consistency of Large Language Models under Ambiguity.}
+\href{https://doi.org/10.18653/v1/2023.blackboxnlp-1.7}{DOI},\\
+Bartsch H, \dots{} Pfau J. \textit{Proceedings of the 6th BlackboxNLP Workshop} (2023)
+\vspace{3pt}
+
+\textbf{Goal misgeneralization in deep reinforcement learning.}
+\href{https://doi.org/10.48550/arXiv.2105.14111}{arXiv},\\
+Langosco L, Koch J,  Le J, Sharkey L, Pfau J, Krueger D. \textit{ICML} (2022)
+\vspace{3pt}
+
+\textbf{Robust Semantic Interpretability: Revisiting Concept Activation Vectors.}
+\href{https://doi.org/10.48550/arXiv.2104.02768}{arXiv},\\
+Pfau J, Young A, Wei J, Wei M, Keiser M. \textit{ICML Workshop on Human Interpretability} (2020)
+\vspace{3pt}
+
+\textbf{Stress Testing Reveals Gaps in Clinic Readiness of Image-Based Diagnostic AI Models.}
+\href{https://doi.org/10.1038/s41746-020-00380-6}{DOI},\\
+Young A, Fernandez K, Pfau J, et al. \textit{npj Digital Medicine} (2021)
+\vspace{3pt}
+
+\textbf{Artificial Intelligence in Dermatology: A Primer.}
+\href{https://doi.org/10.1016/j.jid.2020.02.026}{DOI},\\
+Young A, \dots{} Pfau J, et al. \textit{Journal of Investigative Dermatology} (2020)
+\vspace{3pt}
+
+\textbf{Artificial Intelligence in Teledermatology.}
+\href{https://doi.org/10.1007/s13671-019-0259-8}{DOI},\\
+Xiong M, Pfau J, et al. \textit{Current Dermatology Reports} (2019)
+\vspace{3pt}
+
+\textbf{Global Saliency: Aggregating Saliency Maps to Assess Dataset Artefact Bias.}
+\href{https://doi.org/10.48550/arXiv.1910.07604}{arXiv},\\
+Pfau J, Young A, Wei M, Keiser M. \textit{Machine Learning for Health (ML4H) at NeurIPS} (2019)
+
+
+\section{Fellowships and Awards}
+
+\textbf{OpenAI Superalignment PhD Fellowship}, \textit{New York University} \hfill Sept. 2024 - June. 2025\\
+Awarded PhD fellowship studying LLM consistency methods to scalable oversight problems.
+\vspace{4pt}
+
+\textbf{Bold and Basic Fellowship}, \textit{University of California, San Francisco} \hfill Sept. 2019 - Aug. 2020\\
+Awarded research fellowship for applying CNNs to skin cancer image and genomic data.
+\vspace{4pt}
+
+\textbf{Research Internship Prize}, \textit{Ecole Polytechnique, Paris} \hfill Oct. 2019
+\vspace{4pt}
+
+\textbf{Labex DigiCosme Fellowship}, \textit{Labex DigiCosme, Paris} \hfill Sept. 2018 - Mar. 2019
+
+\section{Skills and Miscellaneous}
+
+\textbf{LANGUAGES:} English (native), German (fluent), French (conversant), Mandarin (basic)
+
+\end{document}
