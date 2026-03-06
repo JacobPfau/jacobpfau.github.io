@@ -17,8 +17,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Research lead on the UK AISI [Alignment Team](https://www.alignmentforum.org/s/NdovveRcyfxgMoujf/p/tbnw7LbNApvxNLAg8), co-leading a team of 16 developing AGI-ready alignment methods. PhD student at NYU CDS. Current research projects include:
-- Scalable oversight (conceptual): what methods and evals do we need to complement debate? Our debate safety case sketch [here](https://arxiv.org/abs/2505.03989) gives a high-level overview of this research direction.
+Research lead on the UK AISI [Alignment Team](https://www.alignmentforum.org/s/NdovveRcyfxgMoujf/p/tbnw7LbNApvxNLAg8). Our team is focused on [worlds where alignment is hard](https://www.alignmentforum.org/posts/epjuxGnSPof3GnMSL/alignment-remains-a-hard-unsolved-problem) and developing theoretically motivated methods to address these challenges. PhD student at NYU CDS. Current research projects include:
 - Debate for LLMs (empirical): training LLMs to debate via RL as an empirical test of scalable oversight.
 - Generative adversarial methods in RL for worst-case diversity guarantees, with applications to alignment.
 
