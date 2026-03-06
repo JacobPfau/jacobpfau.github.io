@@ -12,12 +12,20 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
   pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
     - name: Checkout 🛎️
       uses: actions/checkout@v3
@@ -30,16 +38,12 @@ jobs:
       run: |
         npm install -g mermaid.cli
         bundle exec jekyll build
-    - name: Deploy 🚀
+    - name: Upload Pages artifact
       if: github.event_name != 'pull_request'
-      uses: JamesIves/github-pages-deploy-action@v4
+      uses: actions/upload-pages-artifact@v3
       with:
-        folder: _site
-    - name: Trigger Pages Build
+        path: _site
+    - name: Deploy to GitHub Pages 🚀
       if: github.event_name != 'pull_request'
-      run: |
-        curl -s -X POST \
-          -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-          -H "Accept: application/vnd.github.v3+json" \
-          https://api.github.com/repos/${{ github.repository }}/pages/builds
-
+      id: deployment
+      uses: actions/deploy-pages@v4
