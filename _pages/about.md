@@ -17,7 +17,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Cofounder and Scalable Oversight lead at [Sequent](https://www.sequent.org/launch), a nonprofit research organization pursuing scale and automation for higher confidence in AI alignment. I'm building our scalable oversight team, and **we're hiring research scientists** — see our [launch announcement](https://www.sequent.org/launch) for details.
+Cofounder and Scalable Oversight lead at [Sequent](https://www.sequent.org/launch), a nonprofit research organization pursuing scale and automation for higher confidence in AI alignment.
 
 Previously: PhD at NYU CDS, and research lead on the UK AISI [Alignment Team](https://www.alignmentforum.org/s/NdovveRcyfxgMoujf/p/tbnw7LbNApvxNLAg8). Ongoing research interests include:
 - Debate for LLMs (empirical): training LLMs to debate via RL as an empirical test of scalable oversight.
