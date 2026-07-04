@@ -17,7 +17,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Cofounder and Scalable Oversight lead at [Sequent](https://www.sequent.org/launch), an alignment research nonprofit.
+Cofounder and scalable oversight team lead at [Resolution](https://www.resolution.org/launch), an alignment research nonprofit.
 
 Previously: PhD at NYU CDS, and research lead on the UK AISI [Alignment Team](https://www.alignmentforum.org/s/NdovveRcyfxgMoujf/p/tbnw7LbNApvxNLAg8). Ongoing research interests include:
 - Debate for LLMs (empirical): training LLMs to debate via RL as an empirical test of scalable oversight.
